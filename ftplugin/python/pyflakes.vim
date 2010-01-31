@@ -48,8 +48,8 @@ def check(buffer):
     contents = '\n'.join(buffer[:]) + '\n'
 
     vimenc = vim.eval('&encoding')
-    if vimenc:
-        contents = contents.decode(vimenc)
+    #if vimenc:
+    #    contents = contents.decode(vimenc)
 
     builtins = []
     try:

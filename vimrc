@@ -3,6 +3,7 @@ set nocp
 syntax on
 filetype plugin indent on 
 set hidden
+set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set autoindent
@@ -16,15 +17,11 @@ set mouse=a
 set ttymouse=xterm2
 set selection=exclusive
 set nu
-set winwidth=82
+set winwidth=84
 set nowrap
 set bg=light
-set t_Co=256
-set guifont=Courier\ New:h14
 
 autocmd FileType python set omnifunc=pythoncomplete#Complete
-
-colorscheme zenburn
 
 let g:miniBufExplorerMoreThanOne=0
 let g:miniBufExplMapWindowNavVim=1
